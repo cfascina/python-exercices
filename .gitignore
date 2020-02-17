@@ -1,6 +1,2 @@
-# Arquivos de configuração do Sublime Text
-python-wiki.sublime-project
-python-wiki.sublime-workspace
-
-# Arquivos de configuração do Jupyter Notebook
 .ipynb_checkpoints/
+.idea/
