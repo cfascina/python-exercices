@@ -3,7 +3,6 @@ from sklearn.feature_extraction.text import CountVectorizer
 from tweepy.streaming import StreamListener
 from tweepy import OAuthHandler
 from tweepy import Stream
-import csv
 import json
 import pandas as pd
 
