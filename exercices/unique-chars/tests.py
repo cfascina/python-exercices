@@ -17,7 +17,8 @@ def main():
     test_class = TestUniqueChars()
     
     try:
-        test_class.test_unique_chars(UniqueChars().is_unique)
+        tested_class = UniqueChars()
+        test_class.test_unique_chars(tested_class.is_unique)
     
     except NameError:
         print(f"NameError: {NameError}")
