@@ -4,19 +4,24 @@ from nose.tools import assert_equal
 class TestUniqueChars(object):
 
     def test_unique_chars(self, func):
+        
         assert_equal(func(None), False)
         assert_equal(func(""), True)
         assert_equal(func("foo"), False)
         assert_equal(func("bar"), True)
+        
         print("Tests OK.")
 
 def main():
-    test = TestUniqueChars()
+    
+    test_class = TestUniqueChars()
     
     try:
-        test.test_unique_chars(UniqueChars().is_exclusive)
+        test_class.test_unique_chars(UniqueChars().is_unique)
+    
     except NameError:
-        pass
+        print(f"NameError: {NameError}")
 
 if __name__ == '__main__':
+
     main()
