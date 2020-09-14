@@ -7,10 +7,10 @@ import json
 import pandas as pd
 
 # Keys from Twitter App.
-api_key = "7bh0n5ianppFnkNqPoQKst585"
-api_key_secret = "hEw7ZEbkdYQDhloYrseNnilwrXiHARGMfMmf2QHQvJpKJepKVs"
-access_token = "790554216750252032-CXPbxfjefy413MOiKfQYVA2HiZToqLB"
-access_token_secret = "YmYuaXPOdCH3bW9VsK3o37PnK3cbWQwAeJia4uMgWRl61"
+api_key = ""
+api_key_secret = ""
+access_token = ""
+access_token_secret = ""
 
 # Creates the authorization keys.
 auth = OAuthHandler(api_key, api_key_secret)
